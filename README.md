@@ -51,10 +51,10 @@ R: Diferentemente do texto cifrado no caso 4, em que vemos um padrão, uma repet
 **8.1. Qual o conteúdo do texto cifrado?**  
 R: 10981fe3009f1fe0ab7592179c361cc7af8eb390b79ebc8ed6a1f71d43e1c0c4  
 **8.2. Compare o texto cifrado com o que foi obtido no caso 7 e apresente conclusão sobre a comparação.**  
-R: O texto é completamente diferente do gerado no caso 7
+R: O texto é completamente diferente do gerado no caso 7  
 **8.3. A partir do resultado de 8.2, decriptografe a mensagem usando o vetor de inicialização constituído dos bytes 1, 1,
 2, 2, 3, 3, 4, 4. Qual a conclusão que você atinge?**  
-R:  
+R: Ao decifrar o texto obtido no caso 8 com o vetor de inicialização obtemos o conteúdo *XT^ezSABONETESABONETE*, como podemos ver o início do texto é diferente, pois deciframos o texto com um vetor de inicialização diferente do que foi cifrado.  
 
 ## Caso 9
 **9.1. Criptografe o texto “FURB” usando o modo de operação “ECB”. A partir do texto cifrado obtido, tente decifrá-lo
