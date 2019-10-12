@@ -61,7 +61,7 @@ class Main
         println("Size " + encrypt7.length)
         println("")
         print("Decript: ")
-        decrypt(secreKey, encrypt7, "CBC", true, ivParamUnique)
+        decrypt(secreKey, encrypt7, "CBC", true, IvParameterSpec(byteArrayOf(1, 1, 2, 2, 3, 3, 4, 4)))
         println("")
 
         println("Caso 9")
