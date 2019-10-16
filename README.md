@@ -5,13 +5,13 @@
 **1.1. Qual o conteúdo do texto cifrado (em hexadecimal)?**  
 R: 7f4700aa6f5fe08b  
 **1.2. Qual a extensão (quantidade de caracteres) do texto cifrado?**  
-R: 16  
+R: 8  
 
 ## Caso 2
 **2.1. Qual o conteúdo do texto cifrado (em hexadecimal)?**  
 R: f34739ab7634c4efe50ff1b554856572  
 **2.2. Qual a extensão do texto cifrado?**  
-R: 32  
+R: 16  
 **2.3. Por que o texto cifrado tem tal tamanho?**  
 R: Pois o algoritmo completa o restante dos bytes para ficarem em blocos de 8  
 
@@ -19,7 +19,7 @@ R: Pois o algoritmo completa o restante dos bytes para ficarem em blocos de 8
 **3.1. Qual o conteúdo do texto cifrado (em hexadecimal)?**  
 R: 841091472604b96acdbc3e2fefa73bdd  
 **3.2. Qual a extensão do texto cifrado?**  
-R: 32  
+R: 16  
 **3.3. Por que o texto cifrado tem tal tamanho?**  
 R: Pois o texto em sí ocupa exatamente um bloco, mas ele precisa colocar o caracteres para descriptografar, então ele cria um novo bloco para isso.  
 
@@ -27,7 +27,7 @@ R: Pois o texto em sí ocupa exatamente um bloco, mas ele precisa colocar o cara
 **4.1. Qual o conteúdo do texto cifrado (em hexadecimal)?**  
 R: 841091472604b96a841091472604b96a841091472604b96acdbc3e2fefa73bdd   
 **4.2. Qual a extensão do texto cifrado?**  
-R: 64  
+R: 32  
 **4.3. Avalie o conteúdo do texto cifrado. Que conclusão é possível obter a partir do texto cifrado e do texto simples?**  
 R: Podemos ver a repetição de caracteres, como acontece com o texto simples.  
 
